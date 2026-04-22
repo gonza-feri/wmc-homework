@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Valladolid</title>
+    <title>Web Multimea Content - Gonzalo Agundez Saez</title>
     <style>
         @font-face {
             font-family: 'Cinzel';
@@ -88,7 +88,45 @@
     <audio controls>
         <source src="audio/RealValladolidAnthem.mp3" type="audio/mp3">
         Your browser does not support the audio element.
-    </audio>   
+    </audio>
+
+    <h1>AR Homework: 3D Model Visualization</h1>
+    <div>
+        <img src="images/mobile_cap.jpeg" alt="AR Mobile Snapshot">
+        <p>Snapshot: 3D model projected via WebAR on mobile device</p>
+    </div>
+
+    <div>
+        <ul>
+            <li><strong>3D Model:</strong> Agumon (Digital Monster) from 
+                <a href="https://skfb.ly/pIJsz">Sketchfab</a>           
+            </li>
+            <li><strong>AR Tool:</strong> 
+                <a href="https://dashboard.mywebar.com/home">MyWebAR</a>
+            </li>
+            <li><strong>Platform:</strong> WebAR (Native mobile browser).</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Technical Justification</h3>
+        <p>
+            I chose to use <strong>MyWebAR</strong> with marker-based tracking to ensure a stable and accessible experience across different hardware. While my personal device was not compatible with Google Play Services for AR (ARCore), I successfully validated the implementation using a peer's device to confirm that the WebAR engine correctly anchors the 3D model to the target image. This approach provides a reliable "no-app" solution that maintains high tracking precision and universal browser support, fulfilling the technical requirements of the assignment regardless of native system limitations.
+        </p>
+    </div>
+
+    <div>
+        <h3>Test</h3>
+        <img src="images/qr.png" alt="QR">
+    </div>
+
+    <div>
+        <h4>Video demostration</h4>
+        <video width="640" height="360" controls>
+            <source src="videos/video_demostration.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </div>
 
 </body>
 </html>
